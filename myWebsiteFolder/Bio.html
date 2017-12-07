@@ -7,10 +7,18 @@
                 font-size: 50px;
                 text-align: center;
             }
+            body {
+                background: #00A3D7; /* For browsers that do not support gradients */
+                background: -webkit-linear-gradient(#00A3D7, #FF6F00, #00A3D7); /* For Safari 5.1 to 6.0 */
+                background: -moz-linear-gradient(#00A3D7, #FF6F00, #00A3D7); /* For Opera 11.1 to 12.0 */
+                background: -o-linear-gradient(#00A3D7, #FF6F00, #00A3D7); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#00A3D7, #FF6F00, #00A3D7);  /* Standard syntax */
+            }
             .text {
                font-size: 20px;
                text-align: center;
                font-family: comic sans ms;
+               color: black;
            }
            
          
@@ -30,7 +38,9 @@
             <li class= "text">Cats and other animals</li>
             
         <p class= "text">Websites I like:</p>
-        <li class= "text"><a href= "Bio.html"></a></li>
+        <li class= "text"><a class="text" href= "https://kotori.me/mario/">Full Screen Mario</a></li>
+        <li class= "text"><a class="text" href= "https://www.youtube.com/">Youtube</a></li>
+        <li class= "text"><a class="text" href= "http://www.coolmath-games.com/">Cool Math Games</a></li>
         
     </body>
 </html>
